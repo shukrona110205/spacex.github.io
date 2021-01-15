@@ -1,0 +1,188 @@
+body {
+    background: #000;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 400px 0 0 0;
+    height: 100vh;
+}
+
+
+
+/*---------------- navigation ----------------*/
+
+
+
+.content-right {
+    margin: 0 200px 0 0;
+    text-align: right;
+}
+
+.content-left {
+    margin-top: 400px;
+    text-align-last: left;
+    margin: 0 0 0 200px;
+}
+
+.text {
+    font-size: 22px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.little-text {
+    font-size: 19px;
+}
+
+.btn {
+    margin-top: 30px;
+    border-style: none;
+}
+
+.btn {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    background: transparent;
+    padding: 12px 45px;
+}
+
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+/*---------------- header ----------------*/
+
+.header {
+    background: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.nav {
+    width: 95%;
+    position: fixed;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-content {
+    display: flex;
+    align-items: center;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    margin: 0 0 5px 30px;
+}
+
+.menu {
+    margin: 0 0 0 -200px;
+    display: flex;
+}
+
+.menu li a {
+    font-size: 14px;
+    margin: 0 40px 0 0;
+    font-weight: 700;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-image {
+    margin: 200px 0 0 0;
+}
+
+.head-content {
+    margin: 350px 100px 0 0;
+}
+
+
+/*---------------- section-one ----------------*/
+
+.section-one {
+    background-size: cover;
+    background: url(../img/photo-1541185933-ef5d8ed016c2.jfif) no-repeat;
+}
+
+
+
+/*---------------- section-one ----------------*/
+
+.section-two {
+    background: url(../img/pulsar-831502910.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/*---------------- section-one ----------------*/
+
+.section-three {
+    background: url(../img/spacex-falcon-9-launch-wallpaper.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/*---------------- section-one ----------------*/
+
+.section-four {
+    background: url(../img/spacex-wallpaper-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+/*---------------- section-one ----------------*/
+
+.section-five {
+    background: url(../img/p-1-falcon-heavy.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*---------------- FOOTER ----------------*/
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.networks-menu {
+    display: flex;
+}
+
+.networks-menu li a {
+    margin: 0 30px 0 0;
+}
+
